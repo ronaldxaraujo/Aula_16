@@ -95,7 +95,7 @@ body{
 }
 
 #info-container{
-    padding: 20px;
+    padding: 30px;
     text-transform: uppercase;
 }
 
@@ -114,7 +114,7 @@ body{
 
 .resumo{
     background: #eee;
-    padding: 10px;
+    padding: 20px;
 }
 
 .resumo h3{
@@ -138,6 +138,15 @@ body{
 }
 
 @media (max-width: 768px) {
+
+    .navbar{
+        height: 180px;
+    }
+
+    #navbar-container{
+        display: grid;
+        justify-content: center;
+    }
 
 .localizacao{
     display: grid;

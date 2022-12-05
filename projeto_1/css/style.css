@@ -319,30 +319,14 @@ a {
 /* ------------------------mobile--------------------------- */
 
 @media (max-width: 768px){
-.navbar{
-    height: 180px;
-}
+    .navbar{
+        height: 180px;
+    }
 
-#navbar-container{
-    flex-direction: column;
-    padding: 20px 0px;
-}
-
-#navbar-items{
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-}
-
-#navbar-items .items{
-    padding: 5px 100px;
-}
-
-#navbar-items li:nth-child(2){
-    margin: 5px;
-    padding: 3px;
-    border-top: 1px solid #333;
-}
+    #navbar-container{
+        display: grid;
+        justify-content: center;
+    }
 
 #clients-container{
     grid-template-columns: repeat(2, 1fr);

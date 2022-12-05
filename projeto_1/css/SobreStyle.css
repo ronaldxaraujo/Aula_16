@@ -108,3 +108,30 @@ body{
     padding: 35px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .navbar{
+        height: 180px;
+    }
+
+    #navbar-container{
+        display: grid;
+        justify-content: center;
+    }
+
+    #img-energia1{
+        height: 250px;
+    }
+
+    #img-energia2{
+        height: 250px;
+    }
+#img-planta{
+    height: 250px;
+}
+
+#img-brasil{
+    height: 270px;
+}
+    
+}
